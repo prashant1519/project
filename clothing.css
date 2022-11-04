@@ -94,7 +94,7 @@
     margin-top:15px;
 }
 
-    #all-shop{
+#all-shop{
         height: 15px;
         width: 80%;
         border: 1px solid black;
@@ -110,4 +110,5 @@
         img{
             height: 230px;
             width:95% ;
+            cursor: pointer;
         }

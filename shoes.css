@@ -1,0 +1,30 @@
+
+#shoes{
+    display: flex;
+    height: 900px;
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-left: 195px;
+
+}
+
+.one{
+    display: flex;
+    height: 900px;
+    width: 24%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+#nav{
+    height: 30px;
+    width: 99%;
+    border: 1px solid black;
+}
+
+#women-shoes{
+    color: black;
+}
+
+

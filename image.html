@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <div id="app">
+
+        <div id="one">
+            <div >
+                <img src="" alt="" class="img">
+            </div>
+            <!-- <div >
+                <h4 class="price"></h4>
+            </div>
+            <div>
+                <p  class="brand"></p>
+            </div> -->
+           </div>
+           
+           <div id="two">
+            <div id="two1">
+                <div class="prices"></div>
+                <div  class="brand"></div>
+            </div>
+           </div>
+
+
+    </div>
+ 
+   
+</body>
+</html>
+<script>
+    var mil=JSON.parse(localStorage.getItem("data"))
+
+    document.querySelector(".img").src=mil.image2
+    document.querySelector(".brand").innerText=mil.brand
+    document.querySelector(".prices").innerText=mil.price
+</script>

@@ -992,27 +992,62 @@ let women_clothing= [
 ]
 
 // console.log(women_clothing);
-
-women_clothing.map(function(ele){
-
-    let div=document.createElement("div")
-
-    let image=document.createElement("img")
-    image.src=ele.image2
-
+append(women_clothing)
+//  var yoo=[];
+function append(data){
+    let main=document.getElementById("container")
+        main.innerHTML=""
+    console.log(data);
+    data.map(function(ele){
+        
+        let div=document.createElement("div")
     
-    let br=document.createElement("p")
-    br.innerText=ele.brand
+        let image=document.createElement("img")
+        image.src=ele.image2
+        image.addEventListener("click",function(){
+            // yoo.push(ele)
+            localStorage.setItem("data",JSON.stringify(ele))
+            window.location.href="image.html"
+        })
+    
+        
+        let br=document.createElement("p")
+        br.innerText=ele.brand
+    
+        // let sr=document.createElement("p")
+        // sr.innerText=ele.snize-view-link href
+    
+        let pr=document.createElement("p")
+        pr.innerText=ele.price
+    
+    div.append(image,br,pr)
+    
+    main.append(div)
+    // console.log(main);
+    
+    })
+}
 
-    // let sr=document.createElement("p")
-    // sr.innerText=ele.snize-view-link href
 
-    let pr=document.createElement("p")
-    pr.innerText=ele.price
 
-div.append(image,br,pr)
+function startsort(){
+   var tre= document.getElementById("Trend").value
+   if(tre=="a-z"){
+    let data=women_clothing.sort((a,b)=>{
+        if(a.title>b.title) return 1;
+        if(a.title<b.title) return -1
+        return 0
+    })
+    append(data)
+   }
 
-document.getElementById("container").append(div)
-
-})
-
+   if(tre=="z-a"){
+    let data=women_clothing.sort((a,b)=>{
+     if(a.title>b.title) return -1
+     if(a.title<b.title) return 1
+     return 0
+    })
+    append(data)
+   }
+   
+}

@@ -1,0 +1,38 @@
+#one{
+    height: 600px;
+    width: 50%;
+    border: 1px solid black;
+}
+/* 
+image{
+    width: 100%;
+} */
+
+#two{
+  
+    height: 600px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+#app{
+    display: flex;
+    height: 1300px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.prices{
+    height: 50px;
+    width: 40%;
+    border: 1px solid black;
+    margin-left: 60%;
+}
+
+.brand{
+    height: 50px;
+    width: 40%;
+    border: 1px solid black;
+    margin-left: 60%;
+}
