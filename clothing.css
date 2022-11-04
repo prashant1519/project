@@ -47,7 +47,7 @@
 
 #large{
     display: flex;
-    height: 700px;
+    height: auto;
     width: 70%;
     border: 1px solid black;
     margin-top: 2px;
@@ -72,3 +72,42 @@
     width: 99%;
     border: 1px solid black;
 }
+
+#coll{
+    height: 15px;
+    width: 80%;
+    border: 1px solid black;
+    margin-top:15px;
+}
+#women{
+    height: 15px;
+    width: 80%;
+    border: 1px solid black;
+    margin-top:15px;
+}
+
+#men{
+    height: 15px;
+    width: 80%;
+    border: 1px solid black;
+    /* gap:15px */
+    margin-top:15px;
+}
+
+    #all-shop{
+        height: 15px;
+        width: 80%;
+        border: 1px solid black;
+        /* gap:15px */
+        margin-top:15px;}
+
+        #container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr); 
+           
+        }
+
+        img{
+            height: 230px;
+            width:95% ;
+        }
