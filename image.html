@@ -38,10 +38,33 @@
 </html>
 <script>
     var mil=JSON.parse(localStorage.getItem("data"))
+let yoo=[]
+let arr=JSON.parse(localStorage.getItem("cartdata")) ||[ ]
 
-    document.querySelector(".img").src=mil.image2
-    document.querySelector(".brand").innerText=mil.brand
-    document.querySelector(".prices").innerText=mil.price
+// console.log(arr);
 
+// arr.map(function(ele){
+
+//     let div=document.createElement("div")
+
+//     let image=document.createElement("img")
+//         image.src=ele.image2
+
+//        div.append(image)
+
+//         document.querySelector(".img").append(div)
     
+// })
+
+document.querySelector(".img").src=mil.image1
+document.querySelector(".brand").innerHTML=mil.brand
+document.querySelector(".prices").innerHTML=mil.price  
+
+function cart(){
+    console.log(mil);
+    arr.push(mil)
+    localStorage.setItem("cartdata",JSON.stringify(arr) )
+    window.location.href="cart.html"
+}
+
 </script>
