@@ -8,3 +8,17 @@ img{
     height: 100%;
     width: 100%;
 }
+
+#total{
+    height:40px;
+    width: 10%;
+    border: 1px solid black;
+    margin-left: 80%;
+}
+
+#subtotal{
+    height:40px;
+    width: 10%;
+    border: 1px solid black;
+    margin-left: 80%;
+}

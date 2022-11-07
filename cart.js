@@ -7,8 +7,11 @@ function yoo(cart){
     
         let image=document.createElement("img")
         image.src=ele.image1
+
+        let pr=document.createElement("p")
+        pr.innerText=ele.price
     
-        div.append(image)
+        div.append(image,pr)
     
         console.log(div)
         document.getElementById("cartdata").append(div)
@@ -16,4 +19,7 @@ function yoo(cart){
 }
 
 
+
 yoo(cart)
+
+

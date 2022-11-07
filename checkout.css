@@ -1,0 +1,40 @@
+#bluefly{
+    height: 50px;
+    width: 24%;
+    border: 1px solid black;
+}
+
+#info{
+    height: 35px;
+    width: 18%;
+    border: 1px solid black;
+    display: flex;
+}
+
+#information{
+    height: 35px;
+    width: 35%;
+    border: 1px solid black;
+    color: grey;
+}
+
+#shipping{
+    height: 35px;
+    width: 25%;
+    border: 1px solid black;
+    color: grey;
+}
+
+#payment{
+    height: 35px;
+    width: 25%;
+    border: 1px solid black;
+    color: grey;
+}
+
+#icons{
+    height: 60pxpx;
+    width: 40%;
+    border: 1px solid gray;
+   margin-bottom: 50px;
+}
