@@ -57,7 +57,7 @@ img{
 
 #contact{
     height: 60px;
-    width: 60%;
+    width: 40%;
     border: 1px solid gray;
    margin-top: 20px;
    display: flex; 
@@ -66,18 +66,16 @@ img{
 
 #con{
     height: 40px;
-    width: 25%;
-    border: 1px solid black;
-
-    
+    width: 50%;
+    border: 1px solid black; 
 }
 
 
 #login{
     height: 40px;
-    width: 40%;
+    width: 50%;
     border: 1px solid black;
-    margin-left: 50%;
+    margin-left: 25%;
 }
 
 #mail{
@@ -145,3 +143,69 @@ img{
     margin-left:20%;
 
 }
+
+#adress{
+    height: 40px;
+    width: 40%;
+    border: 1px solid grey;
+    margin-top: 24px;
+}
+
+#after-address{
+    height: 40px;
+    width: 40%;
+    border: 1px solid grey;
+    display: flex;
+    margin-top: 24px;
+}
+
+#City{
+    height: 40px;
+    width: 70%;
+    border: 1px solid grey;
+    /* margin-left:20 */
+
+}
+
+#state{
+    height: 40px;
+    width: 70%;
+    border: 1px solid grey;
+    margin-left:20%;
+
+}
+
+#Zip{
+    height: 40px;
+    width: 70%;
+    border: 1px solid grey;
+    margin-left:20%;
+
+}
+
+#phone{
+    height: 40px;
+    width: 40%;
+    border: 1px solid grey;
+    display: flex;
+    margin-top: 24px;
+}
+
+#continue{
+    height: 40px;
+    width: 18%;
+    border: 1px solid grey;
+    margin-top: 24px;
+    margin-left: 22%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+}
+/* 
+#div1{
+    height: 900px;
+    width: 50%;
+    border: 1px solid grey;
+    /* margin-left:20%; * */
+
