@@ -1,12 +1,12 @@
 #bluefly{
     height: 50px;
-    width: 24%;
+    width: 48%;
     border: 1px solid black;
 }
 
 #info{
     height: 35px;
-    width: 18%;
+    width: 36%;
     border: 1px solid black;
     display: flex;
 }
@@ -27,7 +27,7 @@
 
 #payment{
     height: 35px;
-    width: 25%;
+    width: 50%;
     border: 1px solid black;
     color: grey;
 }
@@ -57,7 +57,7 @@ img{
 
 #contact{
     height: 60px;
-    width: 40%;
+    width: 80%;
     border: 1px solid gray;
    margin-top: 20px;
    display: flex; 
@@ -80,13 +80,13 @@ img{
 
 #mail{
     height: 40px;
-    width: 40%;
+    width: 80%;
     border: 1px solid grey;
 }
 
 #tick{
     height: 40px;
-    width: 23%;
+    width: 56%;
     border: 1px solid grey;
     display: flex;
 }
@@ -108,21 +108,21 @@ img{
 
 #ship{
     height: 40px;
-    width: 15%;
+    width: 30%;
     border: 1px solid grey;
     margin-top: 20px;
 }
 
 #country{
     height: 40px;
-    width: 40%;
+    width: 80%;
     border: 1px solid grey;
     margin-top: 20px;
 }
 
 #names{
     height: 40px;
-    width: 40%;
+    width: 80%;
     border: 1px solid grey;
     display: flex;
     margin-top: 24px;
@@ -146,14 +146,14 @@ img{
 
 #adress{
     height: 40px;
-    width: 40%;
+    width: 80%;
     border: 1px solid grey;
     margin-top: 24px;
 }
 
 #after-address{
     height: 40px;
-    width: 40%;
+    width: 80%;
     border: 1px solid grey;
     display: flex;
     margin-top: 24px;
@@ -185,7 +185,7 @@ img{
 
 #phone{
     height: 40px;
-    width: 40%;
+    width: 80%;
     border: 1px solid grey;
     display: flex;
     margin-top: 24px;
@@ -193,19 +193,53 @@ img{
 
 #continue{
     height: 40px;
-    width: 18%;
+    width: 36%;
     border: 1px solid grey;
     margin-top: 24px;
-    margin-left: 22%;
+    margin-left: 44%;
     color: white;
     background-color: black;
     text-align: center;
     font-size: 20px;
 }
-/* 
-#div1{
-    height: 900px;
-    width: 50%;
-    border: 1px solid grey;
-    /* margin-left:20%; * */
 
+#div1{
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    
+}
+
+#div2{
+    height: 800px;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+
+
+#div3{
+    height: 800px;
+    width: 50%;
+    border: 1px solid black;
+
+        
+
+}
+
+#chec-in{
+    height: 100px;
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 30px;
+    overflow: scroll;
+ 
+
+}
+
+img{
+    width: 100%;
+}

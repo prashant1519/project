@@ -20,6 +20,11 @@ function yoo(cart){
 
 
 
+
+
 yoo(cart)
 
+function checkout(){
 
+    window.location.href = 'checkout.html';
+}
